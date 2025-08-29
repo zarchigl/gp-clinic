@@ -59,8 +59,8 @@ const Homepage = () => {
           <a href="#appointment" onClick={(e) => { e.preventDefault(); handleNavClick("#appointment"); }}>Appointment</a>
         </div>
         <div className="auth-buttons">
-          {/* ==== <button id="loginBtn" onClick={handleLogin}>Login</button> */}
-            <button onClick={() => auth.signinRedirect()}>Login</button>
+          <button id="loginBtn" onClick={handleLogin}>Login</button>
+          <button id="signupBtn" onClick={handleSignup}>Sign Up</button>
         </div>
       </nav>
 
