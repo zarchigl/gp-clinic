@@ -1,6 +1,8 @@
 import React from "react";
 import "./homepage.css";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "react-oidc-context";
+
 
 // ✅ Replace these paths with where your images actually live
 import consultationImg from "../Images/consultation.jpg";
