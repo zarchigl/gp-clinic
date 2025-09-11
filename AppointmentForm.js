@@ -18,7 +18,7 @@ function buildApiUrl() {
 
   const DEFAULT =
 
-    "https://qwo836tyv1.execute-api.us-east-1.amazonaws.com/dev/book-appointment";
+    "https://0ob4gqvxsk.execute-api.us-east-1.amazonaws.com/dev/myresource";
  
   const base = process.env.REACT_APP_APPT_API;
 
