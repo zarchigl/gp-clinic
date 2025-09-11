@@ -98,18 +98,11 @@ export default function AppointmentForm() {
 
       "emergencyName",
 
-      "emergencyPhone",
+      "emergencyPhone"
 
     ];
  
-    // const missing = requiredFields.filter((field) => !form[field]?.trim());
-    const missing = requiredFields.filter((field) => {
-
-      const value = form[field];
-
-      return !value || !value.trim();
-
-    });
+    const missing = requiredFields.filter((field) => !form[field]?.trim());
 
     if (missing.length) {
 
