@@ -103,12 +103,13 @@ export default function AppointmentForm() {
     ];
  
     // const missing = requiredFields.filter((field) => !form[field]?.trim());
-
     const missing = requiredFields.filter((field) => {
-    const value = form[field];
-    return !value || (typeof value === "string" && !value.trim());
-    });
 
+      const value = form[field];
+
+      return !value || !value.trim();
+
+    });
 
     if (missing.length) {
 
