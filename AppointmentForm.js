@@ -116,16 +116,16 @@ export default function AppointmentForm() {
 
     // }
 
-    const missing = requiredFields.filter(
-      (field) => !form[field] || !form[field].trim()
-    );
+    // const missing = requiredFields.filter(
+    //   (field) => !form[field] || !form[field].trim()
+    // );
 
-    if (missing.length > 0) {
-    setMessageType("error");
-    setMessage(`Please fill in all required fields: ${missing.join(", ")}`);
-    setSubmitting(false);
-    return;
-    }
+    // if (missing.length > 0) {
+    // setMessageType("error");
+    // setMessage(`Please fill in all required fields: ${missing.join(", ")}`);
+    // setSubmitting(false);
+    // return;
+    // }
  
 
 
